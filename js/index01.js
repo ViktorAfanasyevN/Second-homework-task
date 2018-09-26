@@ -3,9 +3,9 @@ function testUserText ( userText ) {
           return String(userText) //Second option: It's just used replace method
                   .replace(/</g,"&lt;")
                   .replace((/>/g,"&gt;"))
-                  .replace((/&/g,"&amp"))
-                  .replace((/"/g,"&#x27"))
-                  .replace((/\//g,"&#x2F"))
+                  .replace((/&/g,"&amp;"))
+                  .replace((/"/g,"&#x27;"))
+                  .replace((/\//g,"&#x2F;"))
           
 return userText
           
