@@ -1,8 +1,8 @@
 function testUserText ( userText ) {
 //        return escape(userText) // First option: It's used native escape method
           return String(userText) //Second option: It's just used replace method
-                  .replace(/</g,"&lt")
-                  .replace((/>/g,"&gt"))
+                  .replace(/</g,"&lt;")
+                  .replace((/>/g,"&gt;"))
                   .replace((/&/g,"&amp"))
                   .replace((/"/g,"&#x27"))
                   .replace((/\//g,"&#x2F"))
